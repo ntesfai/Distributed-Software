@@ -1,0 +1,43 @@
+[{
+    "jsonrpc":"2.0",
+    "id":0,
+    "method": "removeWpt",
+    "params": ["waypoint"],
+    "returns": true
+ },
+ {
+    "jsonrpc":"2.0",
+    "id":1,
+    "method": "addWpt",
+    "params": [1.0, 1.0, 1.0, "name", "address"],
+    "returns":true
+ },
+ {
+    "jsonrpc":"2.0",
+    "id":2,
+    "method": "impjson_file",
+    "params": [],
+    "returns":{}
+ },
+ {
+    "jsonrpc":"2.0",
+    "id":3,
+    "method": "expjson_file",
+    "params": [],
+    "returns":true
+ },
+ {
+    "jsonrpc":"2.0",
+    "id":4,
+    "method": "modWpt",
+    "params": [1.0,1.0,1.0,"new_string", "name","address"],
+    "returns":{}
+ },
+ {
+    "jsonrpc":"2.0",
+    "id":5,
+    "method":"get_size",
+    "params":[],
+    "returns":0
+ }
+]

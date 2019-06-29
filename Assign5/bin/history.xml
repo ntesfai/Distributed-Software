@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="gcc -lm -L../../../../../usr/local/lib -ljsoncpp -ljsonrpccpp-client -ljsonrpccpp-common -lmicrohttpd -lstdc++ -lfltk">
+      <target file="waypointRPCClient" lastModified="16317fba998">
+         <source file="../../../../../usr/local/lib/libjsonrpccpp-client.so.1.0.0" lastModified="16246f2c8b8"/>
+         <source file="../../../../../usr/local/lib/libjsonrpccpp-common.so.1.0.0" lastModified="16246f2ad60"/>
+         <source file="../obj/client/WaypointGUI.o" lastModified="16317fb9de0"/>
+         <source file="../obj/client/samplemain.o" lastModified="16317fba1c8"/>
+         <source file="../obj/client/WaypointLibrary.o" lastModified="16317fba5b0"/>
+         <source file="../obj/client/Waypoint.o" lastModified="16317fba5b0"/>
+      </target>
+   </processor>
+   <processor signature="gcc -lm -L../../../../../usr/local/lib -ljsoncpp -ljsonrpccpp-server -ljsonrpccpp-common -lmicrohttpd -lstdc++">
+      <target file="waypointRPCServer" lastModified="16317fb99f8">
+         <source file="../../../../../usr/local/lib/libjsonrpccpp-server.so.1.0.0" lastModified="16246f2c0e8"/>
+         <source file="../../../../../usr/local/lib/libjsonrpccpp-common.so.1.0.0" lastModified="16246f2ad60"/>
+         <source file="../obj/server/WaypointServer.o" lastModified="16317fb9228"/>
+         <source file="../obj/server/WaypointLibrary.o" lastModified="16317fb9610"/>
+         <source file="../obj/server/Waypoint.o" lastModified="16317fb9610"/>
+      </target>
+   </processor>
+</history>
